@@ -1,0 +1,41 @@
+.cover__background {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    min-height: 740px;
+    z-index: 1;
+    color: #fff;
+    text-decoration: none;
+    background-image: url('../../../image/cover-trains.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+/* Задаем затемнение картинки */
+.cover__background::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: #2A2C2F;
+    opacity: 0.3;
+    z-index: -1;
+    transition: all 1s ease-out;
+}
+
+.cover__background:hover:after {
+    opacity: 0.8;
+}
+
+@media (max-width: 1279px) {
+    .cover__background {
+        min-height: calc(100vw / 16 * 10);
+    }
+}

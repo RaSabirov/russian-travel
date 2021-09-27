@@ -1,0 +1,29 @@
+.lead__container {
+    margin: 0 auto;
+    max-width: 984px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    padding-bottom: 92px;
+}
+
+@media (max-width: 1279px) {
+    .lead__container {
+        max-width: 928px;
+    }
+}
+
+@media (max-width: 1023px) {
+    .lead__container {
+        max-width: 768px;
+        padding-bottom: 88px;
+    }
+}
+
+@media (max-width: 767px) {
+    .lead__container {
+        max-width: 100%;
+        padding-bottom: 64px;
+    }
+}
