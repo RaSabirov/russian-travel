@@ -6,22 +6,22 @@
 
 @media (max-width: 1279px) {
     .intro__container {
-    max-width: 928px;
+        max-width: 928px;
     }
 }
 
 @media (max-width: 1023px) {
     .intro__container {
-    max-width: 720px;
-    padding-bottom: 88px;
+        max-width: 720px;
+        padding-bottom: 88px;
     }
 }
 
 @media (max-width: 767px) {
     .intro__container {
-    max-width: 688px;
-    padding-bottom: 64px;
-    padding-left: 16px;
-    padding-right: 16px;
+        max-width: 688px;
+        padding-bottom: 64px;
+        padding-left: 16px;
+        padding-right: 16px;
     }
 }
