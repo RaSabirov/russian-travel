@@ -1,0 +1,27 @@
+.content__title {
+    font-family: 'Inter', 'Arial', 'Helvetica', sans-serif;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 72px;
+    line-height: 78px;
+    text-align: center;
+    color: #FFFFFF;
+    max-width: 800px;
+    margin: 0;
+    margin-bottom: 48px;
+    padding: 0;
+}
+
+@media (max-width: 1023px) {
+    .content__title {
+        font-size: 42px;
+        line-height: 46px;
+    }
+}
+
+@media (max-width: 375px) {
+    .content__title {
+        font-size: 32px;
+        line-height: 35px;
+    }
+}
